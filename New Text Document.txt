@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shimmer Diamonds</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #f7f7f7;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #b38b59;
+    }
+    nav {
+      background-color: #fff;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #555;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #b38b59;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1516637090014-cb1ab78511f5');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2em;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      background-color: #fafafa;
+    }
+    .product {
+      background: white;
+      margin: 15px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      width: 300px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.05);
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .product h3 {
+      color: #b38b59;
+      margin: 15px 0 5px;
+    }
+    .product p {
+      color: #777;
+      margin: 0 0 15px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #f7f7f7;
+      border-top: 1px solid #ddd;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Shimmer Diamonds</h1>
+  <p>Luxury Diamond Jewellery for Every Occasion</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#products">Collection</a>
+  <a href="#">About Us</a>
+  <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+  <h2>Timeless Elegance</h2>
+  <p>Discover the sparkle that lasts forever</p>
+</section>
+
+<section id="products" class="products">
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1611419504463-d1e8e314d4e5" alt="Diamond Ring">
+    <h3>Diamond Ring</h3>
+    <p>₹75,000</p>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3" alt="Diamond Necklace">
+    <h3>Diamond Necklace</h3>
+    <p>₹1,50,000</p>
+  </div>
+  <div class="product">
+    <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f" alt="Diamond Earrings">
+    <h3>Diamond Earrings</h3>
+    <p>₹55,000</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Shimmer Diamonds. All Rights Reserved.
+</footer>
+
+</body>
+</html>
